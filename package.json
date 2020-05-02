@@ -1,0 +1,44 @@
+{
+  "name": "auto-fish-tracker",
+  "version": "0.0.0",
+  "description": "Server side app for tracking fish caught in NieR:Automata",
+  "homepage": "",
+  "author": {
+    "name": "rod",
+    "email": "",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "panel",
+        "title": "Panel",
+        "width": 2,
+        "file": "panel.html",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "notif.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.2.6"
+  }
+}

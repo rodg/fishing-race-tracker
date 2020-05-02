@@ -23,9 +23,9 @@
     "dashboardPanels": [
       {
         "name": "panel",
-        "title": "Panel",
+        "title": "Fishing",
         "width": 2,
-        "file": "panel.html",
+        "file": "name.html",
         "headerColor": "#525F78"
       }
     ],

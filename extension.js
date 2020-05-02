@@ -4,7 +4,7 @@ const net = require('net');
 'use strict';
 
 module.exports = function (nodecg) {
-    const fish = nodecg.bundleConfig.fish;//JSON.parse(fs.readFileSync('fish.json', 'utf8'));
+    const fish = JSON.parse(fs.readFileSync('./bundles/auto-fish-tracker/fish.json', 'utf8'));
     var capture_data = nodecg.Replicant('capture_data');
     capture_data = {};
 

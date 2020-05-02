@@ -1,5 +1,7 @@
 Shout outs to [remote-mine](https://github.com/remote-mine) for the client side legwork. 
 
+This tracker is the server end and requires the LiveSplit plugin to send it data. 
+
 # Install
 Follow install instructions at https://nodecg.com/docs/installing. 
 

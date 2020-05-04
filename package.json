@@ -1,5 +1,5 @@
 {
-  "name": "auto-fish-tracker",
+  "name": "auto-fish-tracker-race",
   "version": "0.0.0",
   "description": "Server side app for tracking fish caught in NieR:Automata",
   "homepage": "",
@@ -23,7 +23,7 @@
     "dashboardPanels": [
       {
         "name": "panel",
-        "title": "Fishing",
+        "title": "Racing",
         "width": 2,
         "file": "name.html",
         "headerColor": "#525F78"
@@ -35,7 +35,11 @@
         "width": 1920,
         "height": 1080
       },{
-        "file": "fishingdisplay.html",
+        "file": "blue.html",
+        "width": 1920,
+        "height": 1080
+      },{
+        "file": "red.html",
         "width": 1920,
         "height": 1080
       }

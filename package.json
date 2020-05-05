@@ -26,7 +26,24 @@
         "title": "Fishing Race",
         "width": 2,
         "file": "fishrace.html",
-        "headerColor": "#525F78"
+        "headerColor": "#525F78",
+        "workspace": "Fish Control"
+      },
+      {
+        "name": "Fishing Reset",
+        "title": "Fishing Reset",
+        "width": 2,
+        "file": "control.html",
+        "headerColor": "#525F78",
+        "workspace": "Fish Control"
+      },
+      {
+        "name": "Confirm",
+        "title": "Confirm",
+        "width": 2,
+        "file": "confirm.html",
+        "headerColor": "#525F78",
+        "dialog": "true"
       }
     ],
     "graphics": [

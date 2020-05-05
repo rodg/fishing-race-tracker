@@ -7,8 +7,8 @@ module.exports = function (nodecg) {
     const redData = nodecg.Replicant('redData');
     const blueData = nodecg.Replicant('blueData');
     const fish = JSON.parse(fs.readFileSync('./bundles/fishing-race-tracker/fish.json', 'utf8'));
-    redData.value = {};
-    blueData.value = {};
+    //redData.value = {};
+    //blueData.value = {};
 
     const server = net.createServer((c) => {
         // 'connection' listener.

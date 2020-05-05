@@ -1,5 +1,5 @@
 {
-  "name": "auto-fish-tracker-race",
+  "name": "fishing-race-tracker",
   "version": "0.0.0",
   "description": "Server side app for tracking fish caught in NieR:Automata",
   "homepage": "",
@@ -23,23 +23,15 @@
     "dashboardPanels": [
       {
         "name": "panel",
-        "title": "Racing",
+        "title": "Fishing Race",
         "width": 2,
-        "file": "name.html",
+        "file": "fishrace.html",
         "headerColor": "#525F78"
       }
     ],
     "graphics": [
       {
-        "file": "notif.html",
-        "width": 1920,
-        "height": 1080
-      },{
-        "file": "blue.html",
-        "width": 1920,
-        "height": 1080
-      },{
-        "file": "red.html",
+        "file": "race.html",
         "width": 1920,
         "height": 1080
       }
@@ -47,6 +39,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "gsap": "^3.2.6"
+    "gsap": "^3.2.6",
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }

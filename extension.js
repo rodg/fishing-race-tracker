@@ -6,7 +6,7 @@ const net = require('net');
 module.exports = function (nodecg) {
     const redData = nodecg.Replicant('redData');
     const blueData = nodecg.Replicant('blueData');
-    const fish = JSON.parse(fs.readFileSync('./bundles/auto-fish-tracker/fish.json', 'utf8'));
+    const fish = JSON.parse(fs.readFileSync('./bundles/fishing-race-tracker/fish.json', 'utf8'));
     redData.value = {};
     blueData.value = {};
 

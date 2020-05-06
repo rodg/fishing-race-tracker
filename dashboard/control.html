@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Name</title>
+</head>
+<body>
+	<span>This will RESTART the fish tracking, deleting all progress.</span>
+        <br>
+        <span>You will have to reload the fishing graphic as well</span>
+        <br>
+	<button class="nodecg-configure" nodecg-dialog="Confirm">RESET</button>
+
+	<script>
+        const reset = function () {
+            const r = nodecg.Replicant("redData");
+            const b = nodecg.Replicant("blueData");
+            b.value = {};
+            r.value = {};
+        };
+        </script>
+</body>
+</html>
